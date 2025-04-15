@@ -61,4 +61,23 @@ html {
 .line {
   height: 0.2rem;
   background-color: var(--support);
+  transition: all 0.3s;
+}
+
+.line-1,
+.line-3 {
+  width: 100%;
+}
+
+.line-2 {
+  width: 70%;
+}
+
+.menu-icon:hover .line-1,
+.menu-icon:hover .line-3 {
+  width: 70%;
+}
+
+.menu-icon:hover .line-2 {
+  width: 30%;
 }
