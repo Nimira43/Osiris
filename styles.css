@@ -69,20 +69,39 @@ html {
   width: 100%;
 }
 
+.menu-icon:hover .line-1,
+.menu-icon:hover .line-3 {
+  width: 70%;
+}
+
 .navigate .line-1 {
   width: 50%;
   transform: translate(103%, 0.5rem) rotateZ(25deg);
+}
+
+.navigate .line-3 {
+  width: 50%;
+  transform: translate(103%, -0.5rem) rotateZ(-25deg);
+}
+
+.navigate .menu-icon:hover .line-1,
+.navigate .menu-icon:hover .line-3 {
+  width: 50%;
 }
 
 .line-2 {
   width: 70%;
 }
 
-.menu-icon:hover .line-1,
-.menu-icon:hover .line-3 {
-  width: 70%;
+.menu-icon:hover .line-2 {
+  margin-left: 30%;
 }
 
-.menu-icon:hover .line-2 {
-  width: 30%;
+.navigate .line-2 {
+  width: 100%;
 }
+
+.navigate .menu-icon:hover .line-2 {
+  margin-left: 0;
+}
+
