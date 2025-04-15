@@ -69,6 +69,11 @@ html {
   width: 100%;
 }
 
+.navigate .line-1 {
+  width: 50%;
+  transform: translate(103%, 0.5rem) rotateZ(25deg);
+}
+
 .line-2 {
   width: 70%;
 }
