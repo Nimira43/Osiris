@@ -275,6 +275,13 @@ header {
   color: var(--support);
 }
 
+.banner {
+  position: absolute;
+  right: 20rem;
+  bottom: 30rem;
+  text-align: center;
+}
+
 @media (max-width: 1600px) {
 
 }
