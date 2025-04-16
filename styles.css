@@ -128,4 +128,10 @@ html {
   object-fit: cover;
   filter: grayscale(100%);
   opacity: 0.5;
+  transition: all 1s;
+}
+
+.nav-left:hover img {
+  filter: grayscale(0);
+  opacity: 1;
 }
