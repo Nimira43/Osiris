@@ -491,6 +491,19 @@ header {
     bottom: 50%;
     transform: translate(50%, 50%);
   }
+  .about-content-left {
+    width: 40%;
+  }
+  .about-content-right {
+    width: 60%;
+  }
+  .section-heading-sm {
+    font-size: 1.4rem;
+  }
+  .about p {
+    font-size: 1.6rem;
+    width: 45rem;
+  }
 }
 
 @media (max-width: 768px) {
