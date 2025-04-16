@@ -422,6 +422,16 @@ header {
   position: relative;
 }
 
+.section-border::after {
+  content: '';
+  width: 7rem;
+  height: 0.7rem;
+  background-color: var(--main-light);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @media (max-width: 1600px) {
 
 }
