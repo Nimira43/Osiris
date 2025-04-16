@@ -414,6 +414,13 @@ header {
   margin: 3rem 0;
 }
 
+.section-border {
+  width: 50rem;
+  height: 0.1rem;
+  color: var(--main);
+  margin-bottom: 3rem;
+  position: relative;
+}
 
 @media (max-width: 1600px) {
 
