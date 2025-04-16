@@ -397,6 +397,14 @@ header {
   padding: 8rem 0 0 6rem;
 }
 
+.section-heading-sm {
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--grey-dark);
+}
+
 
 @media (max-width: 1600px) {
 
