@@ -283,9 +283,9 @@ header {
 }
 
 .banner h3 {
-  /* font-family: var(--feature-font); */
-  font-size: 7rem;
-  font-weight: 200;
+  font-size: 5rem;
+  font-style: italic;
+  font-weight: 100;
   color: var(--grey-medium);
   transform: translate(3rem, 11rem);
 }
@@ -381,7 +381,7 @@ header {
     left: 5rem;
   }
   .banner h3 {
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
   .banner h1 {
     font-size: 12rem;
