@@ -189,7 +189,22 @@ html {
 .nav-items a span {
   font-family: var(--feature-font); 
   font-weight: lighter;
-  font-size: 3rem;
+  font-size: 1.8rem;
   margin-right: 1rem;
   position: relative;
+}
+
+.nav-items a span::before {
+  content: '';
+  width: 0;
+  height: 0.1rem;
+  background-color: var(--support);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;;
+}
+
+.nav-items a:hover span:before {
+  width: 100%;
 }
