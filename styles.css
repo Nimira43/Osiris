@@ -132,6 +132,15 @@ html {
   width: 50%;
   height: 100%;
   cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s;
+}
+
+.navigate .nav-left {
+  opacity: 1;
+  visibility: visible;
+  transition: all 1s 0.7s;
 }
 
 .nav-left img {
