@@ -157,3 +157,18 @@ html {
   color: var(--grey-medium);
 }
 
+.nav-items a:first-child {
+  padding-left: 6rem;
+  position: relative;
+}
+
+.nav-items a:first-child::before {
+  content: '';
+  width: 4.8rem;
+  height: 0.2rem;
+  background-color: var(--support);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
