@@ -166,9 +166,18 @@ html {
   content: '';
   width: 4.8rem;
   height: 0.2rem;
-  background-color: var(--support);
+  background-color: var(--grey-medium);
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-items a:first-child:hover::before {
+  background-color: var(--support);
+}
+
+.nav-items a:hover {
+  color: var(--support);
 }
