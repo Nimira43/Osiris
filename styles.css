@@ -316,7 +316,7 @@ header {
 
 .about {
   width: 100%;
-  background-color: var(--support);
+  background-color: var(--grey-light);
   padding: 10rem 0 15rem 0;
   display: flex;
   justify-content: center;
@@ -328,6 +328,27 @@ header {
   height: 100%;
   display: flex;
 }
+
+.about-content-left {
+  width: 50%;
+  text-align: right;
+  padding-right: 6rem;
+}
+
+.section-num span {
+  font-family: var(--feature-font);
+  font-size: 25rem;
+  background-image: url('./images/about.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+
+
+
 
 @media (max-width: 1600px) {
 
