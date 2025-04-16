@@ -189,4 +189,7 @@ html {
 .nav-items a span {
   font-family: var(--feature-font); 
   font-weight: lighter;
+  font-size: 3rem;
+  margin-right: 1rem;
+  position: relative;
 }
