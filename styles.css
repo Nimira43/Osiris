@@ -529,6 +529,26 @@ header {
   .banner h1 {
     font-size: 12rem;
   }
+  .about {
+    height: 80vh;
+    padding-bottom: 25rem;
+    position: relative;
+  }
+  .about-content-left {
+    padding-right: 0;
+  }  
+  .section-num span {
+    font-size: 16rem;
+  }
+  .about-content-right {
+    padding: 4rem 0 0 6rem;
+  }
+
+
+  .about p {
+    font-size: 1.6rem;
+    width: 45rem;
+  }
 }
 
 @media (max-width: 393px) {
