@@ -555,6 +555,15 @@ header {
   .about-content-right .section-border {
     width: 25rem;
   }
+
+  .about-content-right p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
   .about-content-right p:last-child {
     top: 50%;
   }
