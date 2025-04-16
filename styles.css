@@ -183,6 +183,13 @@ html {
   margin: 2rem 0;
   text-transform: uppercase;
   color: var(--grey-medium);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.navigate .nav-items a {
+  opacity: 1;
+  visibility: visible;
 }
 
 .nav-items a:first-child {
