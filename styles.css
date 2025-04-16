@@ -192,6 +192,26 @@ html {
   visibility: visible;
 }
 
+.navigate .nav-items a:nth-child(1) {
+  transition: opacity 0.5s 1s, color 0.3s;
+}
+
+.navigate .nav-items a:nth-child(2) {
+  transition: opacity 0.5s 1.2s, color 0.3s;
+}
+
+.navigate .nav-items a:nth-child(3) {
+  transition: opacity 0.5s 1.4s, color 0.3s;
+}
+
+.navigate .nav-items a:nth-child(4) {
+  transition: opacity 0.5s 1.6s, color 0.3s;
+}
+
+.navigate .nav-items a:nth-child(5) {
+  transition: opacity 0.5s 1.8s, color 0.3s;
+}
+
 .nav-items a:first-child {
   padding-left: 6rem;
   position: relative;
