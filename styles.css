@@ -314,6 +314,15 @@ header {
   color: var(--grey-medium);
 }
 
+.about {
+  width: 100%;
+  background-color: var(--support);
+  padding: 10rem 0 15rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1600px) {
 
 }
