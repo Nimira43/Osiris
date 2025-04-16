@@ -293,8 +293,21 @@ html {
   html {
     font-size: 48%;
   }
-  .menu-icon {
-    right: 5rem;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 430px) {
+  html {
+    font-size: 42%;
+  }
+  .nav-left {
+    display: none;
+  }
+  .navigate .nav-right {
+    width: 100%;
   }
 }
 
