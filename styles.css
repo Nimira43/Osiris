@@ -18,7 +18,7 @@
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--main-font);
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -35,7 +35,7 @@ html {
 /* To Do - Loader */
 
 .logo {
-  font-family: 'Six Caps', sans-serif;
+  font-family: var(--logo-font);
 }
 
 .container {
@@ -184,4 +184,9 @@ html {
 
 .nav-items a:hover {
   color: var(--support);
+}
+
+.nav-items a span {
+  font-family: var(--feature-font); 
+  font-weight: lighter;
 }
