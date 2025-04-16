@@ -272,7 +272,7 @@ header {
 .logo span {
   font-family: var(--feature-font);
   font-size: 7rem;
-  color: var(--support);
+  color: var(--grey-medium);
 }
 
 .banner {
@@ -283,10 +283,26 @@ header {
 }
 
 .banner h3 {
+  font-family: var(--feature-font);
   font-size: 7rem;
   font-weight: 200;
   color: var(--grey-medium);
   transform: translate(3rem, 11rem);
+}
+
+.banner h1 {
+  font-family: var(--feature-font);
+  font-size: 15rem;
+  letter-spacing: 1rem;
+  background-image: url('./images/banner-bg-text.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.banner h1 span {
+  font-size: 25rem;
 }
 
 
