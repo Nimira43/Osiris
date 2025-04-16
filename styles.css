@@ -543,11 +543,11 @@ header {
   .about-content-right {
     padding: 4rem 0 0 6rem;
   }
-
-
-  .about p {
-    font-size: 1.6rem;
-    width: 45rem;
+  .about .main-btn {
+    position: absolute;
+    bottom: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
