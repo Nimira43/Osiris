@@ -144,3 +144,8 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+}
