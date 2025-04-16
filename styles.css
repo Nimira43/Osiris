@@ -269,3 +269,10 @@ html {
     font-weight: 58%;
   }
 }
+
+@media (max-width: 1368px) {
+  html {
+    font-weight: 55%;
+  }
+}
+
