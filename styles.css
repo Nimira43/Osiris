@@ -432,6 +432,13 @@ header {
   left: 0;
 }
 
+.about p {
+  width: 50rem;
+  font-size: var(--grey-dark);
+  line-height: 3.5rem;
+  margin-bottom: 4rem;
+}
+
 @media (max-width: 1600px) {
 
 }
