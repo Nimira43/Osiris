@@ -283,7 +283,7 @@ header {
 }
 
 .banner h3 {
-  font-family: var(--feature-font);
+  /* font-family: var(--feature-font); */
   font-size: 7rem;
   font-weight: 200;
   color: var(--grey-medium);
@@ -294,7 +294,7 @@ header {
   font-family: var(--feature-font);
   font-size: 15rem;
   letter-spacing: 1rem;
-  background-image: url('./images/banner-bg-text.jpg');
+  background-image: url('./images/banner-bg-text-2.jpg');
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
