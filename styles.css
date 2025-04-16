@@ -329,7 +329,7 @@ header {
 
 .about-content-left {
   width: 50%;
-  text-align: right;
+  text-align: center;
   padding-right: 6rem;
 }
 
@@ -403,6 +403,15 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   color: var(--grey-dark);
+}
+
+.section-heading-lg {
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: var(--main-dark);
+  margin: 3rem 0;
 }
 
 
