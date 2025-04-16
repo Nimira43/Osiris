@@ -164,6 +164,13 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateX(-200%);
+}
+
+.navigate .nav-right {
+  transform: translateX(0);
+  width: 50%;
+  transition: all 1s;
 }
 
 .nav-items {
