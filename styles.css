@@ -311,3 +311,14 @@ html {
   }
 }
 
+@media (max-width: 393px) {
+  html {
+    font-size: 38%;
+  } 
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 36%;
+  } 
+}
