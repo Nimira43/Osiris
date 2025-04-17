@@ -614,6 +614,20 @@ header {
   border-radius: 3rem;
 }
 
+.quote-bg::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 4rem solid transparent;
+  border-right: 4rem solid transparent;
+  border-bottom: 4rem solid var(--main-dark);
+  bottom: -3rem;
+  left: 1rem;
+  transform: rotate(-45deg);
+
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
