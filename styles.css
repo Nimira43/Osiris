@@ -451,7 +451,12 @@ header {
   text-align: center;
 }
 
-.
+.games-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
 
 .game img {
   width: 30rem;
