@@ -668,7 +668,6 @@ footer{
   align-items: center;
   padding: 15rem 0 3rem 0;
   background-color: var(--main-dark);
-  color: var(--grey-light);
 }
 
 .footer-header {
@@ -695,6 +694,12 @@ footer{
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
+}
+
+.address i {
+  font-size: 3.5rem;
+  color: var(--grey-light);
+  margin-right: 2.3rem;
 }
 
 
