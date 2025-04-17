@@ -611,9 +611,6 @@ header {
 .quote {
   width: 80rem;
   height: 28rem;
-  background-color: var(--grey-light);
-  border-radius: 3rem;
-  border: 0.1rem solid var(--main);
   position: absolute;
   top: 33rem;
   left: 8rem;
@@ -630,7 +627,7 @@ header {
 }
 
 .quote-header i {
-  font-size: 8rem;
+  font-size: 5rem;
   color: var(--main);
 }
 
@@ -846,6 +843,12 @@ header {
   .feedback-heading {
     margin-bottom: 5rem;
   }
+
+  .quote-bg {
+    top: 50rem;
+      left: 9rem;
+      height: 50rem;
+  }
   .quote {
     top: 58rem;
     left: 12rem;
@@ -853,7 +856,7 @@ header {
     height: 37rem;
   }
   .quote-header i {
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
   .quote-header h1 {
     font-size: 5rem;
