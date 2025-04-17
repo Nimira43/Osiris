@@ -530,6 +530,10 @@ header {
   letter-spacing: 0.5rem;
 }
 
+.games-content .main-btn {
+  margin-top: 10rem;
+}
+
 @media (max-width: 1600px) {
 
 }
