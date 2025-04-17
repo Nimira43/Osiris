@@ -574,8 +574,8 @@ header {
   width: 30rem;
   height: 30rem;
   object-fit: cover;
-  border-radius: 50%;
-  border: 0.1rem solid var(--main);
+  border-radius: 2rem;
+  border: 0.8rem solid var(--main);
   margin-right: 3rem;
   filter: grayscale(100%);
   cursor: pointer;
@@ -604,7 +604,7 @@ header {
   color: var(--main);
 }
 
-.quote-bg {
+/* .quote-bg {
   width: 35rem;
   height: 40rem;
   background-color: var(--main-dark);
@@ -625,7 +625,20 @@ header {
   bottom: -3rem;
   left: 1rem;
   transform: rotate(-45deg);
+} */
 
+.quote {
+  width: 80rem;
+  height: 28rem;
+  background-color: var(--dark);
+  border-radius: 3rem;
+  position: absolute;
+  top: 33rem;
+  left: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
 }
 
 @media (max-width: 1600px) {
