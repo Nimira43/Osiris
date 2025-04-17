@@ -709,6 +709,13 @@ footer{
   color: var(--grey-light);
 }
 
+.address-par {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  padding-left: 6rem;
+}
+
 
 @media (max-width: 1600px) {
   .game {
