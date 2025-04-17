@@ -587,6 +587,12 @@ header {
   filter: grayscale(0);
 }
 
+.feedback-heading {
+  display: flex;
+  width: 50%;
+  text-align: center;
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
