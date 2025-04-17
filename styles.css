@@ -609,6 +609,12 @@ header {
     font-size: 1.6rem;
     width: 45rem;
   }
+  .games .games-header {
+    width: 35rem;
+  }
+  .games-header .section-border {
+    width: 35rem;
+  }
 }
 
 @media (max-width: 768px) {
