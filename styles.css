@@ -500,6 +500,14 @@ header {
   filter: grayscale(0);
 }
 
+.game-name {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--main);
+  letter-spacing: 0.1rem;
+  margin: 3rem 0;
+}
+
 @media (max-width: 1600px) {
 
 }
