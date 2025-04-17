@@ -716,6 +716,13 @@ footer{
   padding-left: 6rem;
 }
 
+.address-par span {
+  width: 10rem;
+  font-size: 1.4rem;
+  color: var(--grey-light);
+  margin-bottom: 0.5rem;
+}
+
 
 @media (max-width: 1600px) {
   .game {
