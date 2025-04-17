@@ -535,7 +535,9 @@ header {
 }
 
 @media (max-width: 1600px) {
-
+  .game {
+    margin: 6rem 3rem;
+  }
 }
 
 @media (max-width: 1440px) {
