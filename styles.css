@@ -477,6 +477,15 @@ header {
   display: flex;
 }
 
+.game {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem;
+  text-align: center;
+}
+
 .game img {
   width: 30rem;
   height: auto;
