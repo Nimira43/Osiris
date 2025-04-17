@@ -516,6 +516,13 @@ header {
   margin: 3rem 0;
 }
 
+.game-line {
+  width: 10rem;
+  height: 0.1rem;
+  background-color: var(--main);
+  margin-bottom: 3rem;
+}
+
 @media (max-width: 1600px) {
 
 }
