@@ -463,6 +463,14 @@ header {
   margin-right: 10rem;
 }
 
+.games-heading-sm {
+  color: var(--grey-light);
+}
+
+.games-heading-lg {
+  color: var(--grey-medium);
+}
+
 .games-header .section-border::after {
   right: 0;
   left: auto;
