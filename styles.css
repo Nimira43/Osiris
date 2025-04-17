@@ -335,6 +335,7 @@ header {
 .main-btn {
   width: 28rem;
   height: 6rem;
+  font-weight: 400;
   background-color: var(--main-dark);
   border: none;
   border-radius: 0.3rem;
@@ -753,6 +754,20 @@ textarea {
   height: 15rem;
   margin-bottom: 3rem;
   resize: none;
+}
+
+.footer-form button {
+  width: 20rem;
+  height: 5rem;
+  background-color: var(--dark);
+  /* margin-left: auto; */
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--grey-light);
+  letter-spacing: 0.1rem;
+  cursor: pointer;
 }
 
 @media (max-width: 1600px) {
