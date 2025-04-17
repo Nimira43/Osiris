@@ -734,6 +734,11 @@ footer{
   width: 70%;
 }
 
+.footer-form form {
+  display: flex;
+  flex-direction: column;
+}
+
 
 @media (max-width: 1600px) {
   .game {
