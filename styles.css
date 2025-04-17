@@ -562,6 +562,14 @@ header {
   .about-content-right {
     width: 55%;
   }
+  .games-list {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 1024px) {
