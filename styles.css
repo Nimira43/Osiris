@@ -538,6 +538,17 @@ header {
   background-color: var(--grey-light);
 }
 
+.feedback-top img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.1rem solid var(--main);
+  margin-right: 3rem;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
