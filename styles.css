@@ -604,6 +604,16 @@ header {
   color: var(--main);
 }
 
+.quote-bg {
+  width: 35rem;
+  height: 40rem;
+  background-color: var(--main-dark);
+  position: absolute;
+  top: 26rem;
+  left: 4.5rem;
+  border-radius: 3rem;
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
