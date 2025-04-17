@@ -739,6 +739,12 @@ footer{
   flex-direction: column;
 }
 
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 
 @media (max-width: 1600px) {
   .game {
