@@ -534,6 +534,10 @@ header {
   margin-top: 10rem;
 }
 
+.testimonials {
+  background-color: var(--grey-light);
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
