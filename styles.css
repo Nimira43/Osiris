@@ -846,6 +846,12 @@ header {
   .feedback-heading {
     margin-bottom: 5rem;
   }
+  .quote {
+    top: 58rem;
+    left: 12rem;
+    width: 40rem;
+    height: 37ren
+  }
 }
 
 @media (max-width: 393px) {
