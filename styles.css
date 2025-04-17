@@ -723,6 +723,17 @@ footer{
   margin-bottom: 0.5rem;
 }
 
+.social-media i {
+  font-size: 3rem;
+  color: var(--grey-light);
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.footer-form {
+  width: 70%;
+}
+
 
 @media (max-width: 1600px) {
   .game {
