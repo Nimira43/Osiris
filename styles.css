@@ -681,6 +681,14 @@ footer{
   transform: translateX(-50%);
 }
 
+.footer-content {
+  width: 60%;
+  display: flex;
+  margin-bottom: 10rem;
+}
+
+
+
 
 @media (max-width: 1600px) {
   .game {
