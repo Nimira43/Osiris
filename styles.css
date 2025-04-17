@@ -671,7 +671,6 @@ header {
   .about-content-right .section-border {
     width: 25rem;
   }
-
   .about-content-right p {
     position: absolute;
     top: 30%;
@@ -679,9 +678,18 @@ header {
     transform: translateX(-50%);
     text-align: center;
   }
-
   .about-content-right p:last-child {
     top: 50%;
+  }
+  .games-header {
+    margin-right: 3rem;
+  }
+  .games .section-num {
+    padding-right: 5rem;
+  }
+  .games .section-border {
+    width: 30rem;
+    margin-left: auto;
   }
 }
 
