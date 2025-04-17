@@ -537,7 +537,7 @@ header {
 .testimonials {
   width: 100%;
   height: 160vh;
-  background-color: var(--grey-light);
+  background-color: var(--light);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -552,8 +552,12 @@ header {
   margin-bottom: 5rem;
 }
 
+.testimonials-top .section-num {
+  margin-right: 10rem;
+}
+
 .testimonials-top .section-num span {
-  background-image: url('./images/banner-bg-text-2.jpg');
+  background-image: url('./images/banner-bg-text.jpg');
 }
 
 .feedback {
@@ -607,7 +611,7 @@ header {
 .quote {
   width: 80rem;
   height: 28rem;
-  background-color: var(--light);
+  background-color: var(--grey-light);
   border-radius: 3rem;
   border: 0.1rem solid var(--main);
   position: absolute;
