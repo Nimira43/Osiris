@@ -593,6 +593,17 @@ header {
   text-align: center;
 }
 
+.feedback-heading h1 {
+  font-size: 7rem;
+  color: var(--main-dark);
+}
+
+.feedback-heading h1 span {
+  font-size: 8rem;
+  letter-spacing: 0.2rem;
+  color: var(--main);
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
