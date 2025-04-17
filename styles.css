@@ -468,10 +468,12 @@ header {
   left: auto;
 }
 
-.books-top .section-num span {
+.games-top .section-num span {
   background-image: url('images/banner-bg-text-2.jpg'); 
   background-position: 50% 75%;
 }
+
+
 
 .game img {
   width: 30rem;
