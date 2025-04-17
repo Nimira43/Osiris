@@ -261,18 +261,6 @@ header {
   position: relative;
 }
 
-/* .logo { 
-  position: absolute;
-  top: 3rem;
-  left: 25rem;
-} */
-
-/* .logo span {
-  font-family: var(--feature-font);
-  font-size: 7rem;
-  color: var(--grey-medium);
-} */
-
 .banner {
   position: absolute;
   right: 20rem;
@@ -745,6 +733,11 @@ footer{
   flex-wrap: wrap;
 }
 
+.input-group input {
+  width: 37rem;
+  height: 6rem;
+  margin-bottom: 3rem;
+}
 
 @media (max-width: 1600px) {
   .game {
@@ -791,9 +784,6 @@ footer{
   html {
     font-size: 52%;
   }
-  /* .logo {
-    left: 10rem;
-  } */
   .menu-icon {
     right: 5rem;
   }
@@ -857,9 +847,6 @@ footer{
   .navigate .nav-right {
     width: 100%;
   }
-  /* .logo {
-    left: 5rem;
-  } */
   .banner h3 {
     font-size: 3.5rem;
   }
