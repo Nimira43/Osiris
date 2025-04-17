@@ -673,6 +673,15 @@ header {
   padding: 0 10rem;
 }
 
+.quote-body p {
+  width: 50rem;
+  font-size: 1.2rem;
+  color: var(--grey-light);
+  margin-bottom: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
