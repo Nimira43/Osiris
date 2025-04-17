@@ -850,7 +850,18 @@ header {
     top: 58rem;
     left: 12rem;
     width: 40rem;
-    height: 37ren
+    height: 37rem;
+  }
+  .quote-header i {
+    font-size: 5rem;
+  }
+  .quote-header h1 {
+    font-size: 5rem;
+  }
+  .quote-body p {
+    width: 30rem;
+    font-size: 1.4rem;
+    margin-bottom: 3.5rem;
   }
 }
 
