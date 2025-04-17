@@ -687,7 +687,9 @@ footer{
   margin-bottom: 10rem;
 }
 
-
+.footer-social {
+  width: 30%;
+}
 
 
 @media (max-width: 1600px) {
