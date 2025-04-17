@@ -552,6 +552,10 @@ header {
   margin-bottom: 5rem;
 }
 
+.testimonials-top .section-num span {
+  background-image: url('./images/banner-bg-text-2.jpg');
+}
+
 .feedback-top img {
   width: 30rem;
   height: 30rem;
