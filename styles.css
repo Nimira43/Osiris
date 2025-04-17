@@ -702,6 +702,13 @@ footer{
   margin-right: 2.3rem;
 }
 
+.address div span {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--grey-light);
+}
+
 
 @media (max-width: 1600px) {
   .game {
