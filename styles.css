@@ -439,6 +439,15 @@ header {
   margin-bottom: 4rem;
 }
 
+.game img {
+  width: 30rem;
+  height: auto;
+  filter: grayscale(100%);
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
 @media (max-width: 1600px) {
 
 }
