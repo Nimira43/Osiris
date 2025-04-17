@@ -618,7 +618,12 @@ header {
 }
 
 @media (max-width: 768px) {
-
+  .game {
+    width: 32rem;
+  }
+  .game img {
+    width: 27rem;
+  }
 }
 
 @media (max-width: 430px) {
