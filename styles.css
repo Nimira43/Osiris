@@ -682,6 +682,12 @@ header {
   line-height: 2.5rem;
 }
 
+.quote-stars i {
+  font-size: 1.8rem;
+  color: var(--main);
+  margin: 0 0.5rem;
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
