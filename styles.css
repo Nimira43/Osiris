@@ -439,6 +439,14 @@ header {
   margin-bottom: 4rem;
 }
 
+.games {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0 15rem 0;
+}
+
 .game img {
   width: 30rem;
   height: auto;
