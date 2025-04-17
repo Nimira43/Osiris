@@ -469,7 +469,8 @@ header {
 }
 
 .books-top .section-num span {
-  background-image: url('images/banner-bg-text-2.jpg');
+  background-image: url('images/banner-bg-text-2.jpg'); 
+  background-position: 50% 75%;
 }
 
 .game img {
