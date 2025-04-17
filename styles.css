@@ -749,6 +749,12 @@ textarea {
   border-radius: 0.3rem;
 }
 
+textarea {
+  height: 15rem;
+  margin-bottom: 3rem;
+  resize: none;
+}
+
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
