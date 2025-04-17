@@ -661,6 +661,13 @@ header {
   transform: translateX(-50%);
 }
 
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15rem 0 3rem 0;
+}
 @media (max-width: 1600px) {
   .game {
     margin: 6rem 3rem;
