@@ -458,6 +458,11 @@ header {
   margin-bottom: 10rem;
 }
 
+.games-header {
+  text-align: right;
+  margin-right: 10rem;
+}
+
 .game img {
   width: 30rem;
   height: auto;
