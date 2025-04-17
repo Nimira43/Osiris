@@ -261,17 +261,17 @@ header {
   position: relative;
 }
 
-.logo { 
+/* .logo { 
   position: absolute;
   top: 3rem;
   left: 25rem;
-}
+} */
 
-.logo span {
+/* .logo span {
   font-family: var(--feature-font);
   font-size: 7rem;
   color: var(--grey-medium);
-}
+} */
 
 .banner {
   position: absolute;
@@ -791,9 +791,9 @@ footer{
   html {
     font-size: 52%;
   }
-  .logo {
+  /* .logo {
     left: 10rem;
-  }
+  } */
   .menu-icon {
     right: 5rem;
   }
@@ -857,9 +857,9 @@ footer{
   .navigate .nav-right {
     width: 100%;
   }
-  .logo {
+  /* .logo {
     left: 5rem;
-  }
+  } */
   .banner h3 {
     font-size: 3.5rem;
   }
