@@ -574,8 +574,8 @@ header {
   width: 30rem;
   height: 30rem;
   object-fit: cover;
-  border-radius: 2rem;
-  border: 0.8rem solid var(--main);
+  border-radius: 50%;
+  border: 0.1rem solid var(--main);
   margin-right: 3rem;
   filter: grayscale(100%);
   cursor: pointer;
@@ -604,34 +604,12 @@ header {
   color: var(--main);
 }
 
-/* .quote-bg {
-  width: 35rem;
-  height: 40rem;
-  background-color: var(--main-dark);
-  position: absolute;
-  top: 26rem;
-  left: 4.5rem;
-  border-radius: 3rem;
-}
-
-.quote-bg::after {
-  content: '';
-  width: 0;
-  height: 0;
-  position: absolute;
-  border-left: 4rem solid transparent;
-  border-right: 4rem solid transparent;
-  border-bottom: 4rem solid var(--main-dark);
-  bottom: -3rem;
-  left: 1rem;
-  transform: rotate(-45deg);
-} */
-
 .quote {
   width: 80rem;
   height: 28rem;
-  background-color: var(--dark);
+  background-color: var(--light);
   border-radius: 3rem;
+  border: 0.1rem solid var(--main);
   position: absolute;
   top: 33rem;
   left: 8rem;
@@ -640,19 +618,6 @@ header {
   align-items: center;
   padding: 3rem 0;
 }
-
-/* .quote::after {
-  content: '';
-    width: 0;
-    height: 0;
-    position: absolute;
-    border-left: 4rem solid transparent;
-    border-right: 4rem solid transparent;
-    border-bottom: 4rem solid var(--main-dark);
-    bottom: -3rem;
-    left: 1rem;
-    transform: rotate(-45deg);
-} */
 
 .quote-header {
   display: flex;
@@ -668,7 +633,7 @@ header {
 .quote-header h1 {
   font-size: 2rem;
   text-transform: uppercase;
-  color: var(--grey-medium);
+  color: var(--main-dark);
   letter-spacing: 0.2rem;
   padding: 0 10rem;
 }
@@ -676,7 +641,7 @@ header {
 .quote-body p {
   width: 50rem;
   font-size: 1.2rem;
-  color: var(--grey-light);
+  color: var(--grey-dark);
   margin-bottom: 2.5rem;
   text-align: center;
   line-height: 2.5rem;
@@ -686,6 +651,13 @@ header {
   font-size: 1.8rem;
   color: var(--main);
   margin: 0 0.5rem;
+}
+
+.testimonials .main-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 15rem;
+  transform: translateX(-50%);
 }
 
 @media (max-width: 1600px) {
