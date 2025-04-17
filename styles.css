@@ -473,7 +473,9 @@ header {
   background-position: 50% 75%;
 }
 
-
+.games-list {
+  display: flex;
+}
 
 .game img {
   width: 30rem;
