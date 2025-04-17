@@ -683,6 +683,9 @@ header {
   .banner {
     bottom: 25rem;
   }
+  .testimonials {
+    height: 170vh;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -745,6 +748,9 @@ header {
   .games-header .section-border {
     width: 35rem;
   }
+  .testimonials {
+    height: 100vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -753,6 +759,9 @@ header {
   }
   .game img {
     width: 27rem;
+  }
+  .testimonials {
+    height: 115vh;
   }
 }
 
@@ -820,6 +829,22 @@ header {
   .games .section-border {
     width: 30rem;
     margin-left: auto;
+  }
+  .testimonials {
+    height: 125vh;
+  }
+  .testimonials .section-num {
+    margin-right: 5rem;
+  }
+  .testimonials .section-border {
+    width: 29rem;
+  }
+  .feedback-top {
+    flex-direction: column-reverse;
+    padding-left: 0;
+  }
+  .feedback-heading {
+    margin-bottom: 5rem;
   }
 }
 
