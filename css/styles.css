@@ -280,7 +280,7 @@ header {
   font-family: var(--feature-font);
   font-size: 15rem;
   letter-spacing: 1rem;
-  background-image: url('./images/banner-bg-text-2.jpg');
+  background-image: url('../images/banner-bg-text-2.jpg');
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -324,7 +324,7 @@ header {
 .section-num span {
   font-family: var(--feature-font);
   font-size: 25rem;
-  background-image: url('./images/about.jpg');
+  background-image: url('../images/about.jpg');
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -466,7 +466,7 @@ header {
 }
 
 .games-top .section-num span {
-  background-image: url('images/banner-bg-text-2.jpg'); 
+  background-image: url('../images/banner-bg-text-2.jpg'); 
   background-position: 50% 75%;
 }
 
@@ -546,7 +546,7 @@ header {
 }
 
 .testimonials-top .section-num span {
-  background-image: url('./images/banner-bg-text.jpg');
+  background-image: url('../images/banner-bg-text.jpg');
 }
 
 .feedback {
