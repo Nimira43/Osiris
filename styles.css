@@ -760,7 +760,7 @@ textarea {
   width: 20rem;
   height: 5rem;
   background-color: var(--dark);
-  /* margin-left: auto; */
+  margin-left: auto;
   border: none;
   border-radius: 0.3rem;
   font-weight: 400;
